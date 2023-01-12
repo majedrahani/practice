@@ -1,0 +1,27 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(7, 70px); 
+    justify-content: center;
+   
+}
+h2{
+    background-color: bisque;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+#over{
+    background-color: darkgray;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+#day{
+    background-color: cadetblue;
+    height: 40px;
+    color: white;
+}
